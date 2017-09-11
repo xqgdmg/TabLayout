@@ -27,4 +27,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ImageTabActivity.class);
         startActivity(intent);
     }
+
+    public void onOfficialClick(View view) {
+        Intent intent = new Intent(this, OfficialDemoActivity.class);
+        startActivity(intent);
+    }
 }

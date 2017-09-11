@@ -17,15 +17,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CustomTabItemActivity"
-
-            />
-        <activity android:name=".ImageTabActivity"
-
-            />
-        <activity android:name=".TextTabActivity"
-
-            />
+        <activity android:name=".CustomTabItemActivity"/>
+        <activity android:name=".ImageTabActivity"/>
+        <activity android:name=".TextTabActivity"/>
+        <activity android:name=".OfficialDemoActivity"/>
     </application>
 
 </manifest>

@@ -28,4 +28,11 @@
         android:onClick="onCustormClick"
         android:text="自定义TabItem" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onOfficialClick"
+        android:text="developer官方用法" />
+
 </LinearLayout>
