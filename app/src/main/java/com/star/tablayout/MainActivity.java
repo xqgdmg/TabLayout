@@ -13,21 +13,33 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /*
+     * 纯文本
+     */
     public void onTextClick(View view) {
         Intent intent = new Intent(this, TextTabActivity.class);
         startActivity(intent);
     }
 
+    /*
+     * 自定义
+     */
     public void onCustormClick(View view) {
         Intent intent = new Intent(this, CustomTabItemActivity.class);
         startActivity(intent);
     }
 
+    /*
+     * 纯图片
+     */
     public void onImageClick(View view) {
         Intent intent = new Intent(this, ImageTabActivity.class);
         startActivity(intent);
     }
 
+    /*
+     * 官方使用方法
+     */
     public void onOfficialClick(View view) {
         Intent intent = new Intent(this, OfficialDemoActivity.class);
         startActivity(intent);
